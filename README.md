@@ -4,7 +4,7 @@ Generated API Client from OpenAPI specification of [Docker](https://www.docker.c
 
 ## Usage
 
-You should not use this library directly, please use the [docker-php](https://github.com/docker-php/docker-php) one instead.
+You should not use this library directly, please use the [docker-php](https://github.com/PrestaInfra/docker-php) one instead.
 
 ## Versioning
 
@@ -20,7 +20,10 @@ You should always fix the version, or at least the 3 first numbers (4.1.25.\*)
 
 ## Credits
 
-This library is a fork of the original [docker-php-api](https://github.com/docker-php/docker-php-api), created by [Joel Wurtz](https://github.com/joelwurtz).
+This library is a fork of a fork [docker-php-api](https://github.com/beluga-php/docker-php-api) created by [Flávio Heleno](https://github.com/flavioheleno).
+The original project [docker-php-api](https://github.com/docker-php/docker-php-api) created by [Joel Wurtz](https://github.com/joelwurtz).
+
+Thanks [Joel Wurtz](https://github.com/joelwurtz) and [Flávio Heleno](https://github.com/flavioheleno)
 
 ## License
 
