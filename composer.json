@@ -1,5 +1,5 @@
 {
-    "name": "beluga-php/docker-php-api",
+    "name": "prestainfra/docker-php-api",
     "license": "MIT",
     "type": "library",
     "description": "Docker API generated files from OpenAPI Specification",
@@ -43,7 +43,8 @@
         "php-http/socket-client": "Socket-based HTTP Client to use the API"
     },
     "conflict": {
-        "docker-php/docker-php-api": "*"
+        "docker-php/docker-php-api": "*",
+        "beluga-php/docker-php-api": "*"
     },
     "scripts": {
         "generate": "vendor/bin/jane-openapi generate",
